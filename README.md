@@ -29,9 +29,7 @@ Because we can only emit 100 pixels horizontally (and have less of a timing cons
 
 ## Framebuffer ##
 
-The main constraint here is the Arduino's RAM size. The current version (implementing a green monochrome buffer @ 1 bit per pixel) uses 700 bytes of precious SRAM already. 8 colors are easy to achieve on the RGBI connection, but implementing any reasonable resolution is hard (since we would need 3 bits per pixels stored).
-
-It should be fairly easy to change the code to emit 4 colors though (2 bits per pixel, a 1400 byte framebuffer for 100x70).
+The main constraint here is the Arduino UNO memory size. The current version (implementing a green monochrome buffer @ 1 bit per pixel) uses 700 bytes of precious SRAM already. 8 colors are easy to achieve on the RGBI connection, but implementing any reasonable resolution is hard (since we would need 3 bits per pixels stored). It should be fairly easy to change the code to emit 4 colors though (2 bits per pixel, with a 1400 byte framebuffer for a 100x70 resolution).
 
 
 
