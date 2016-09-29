@@ -9,7 +9,7 @@ ArduinoCGADriver is an Arduino sketch that drives a CGA screen directly from an 
 
 Wiring the Arduino to the CGA connector is very straighforward. The CGA pinout  has 9 pins in total: 2 grounds (GND), 1 reserved pin, Hsync, VSync and seperate pins for R, G, B and I (intensity).
 
-Wire digital 8 tp GREEN, digital 9 to RED, digital 10 to BLUE, digital 11 to HSync, digital 12 to VSync. Wire a direct 5V connection to Intensity. Connect GND to GND.
+Wire digital 8 to GREEN, digital 9 to RED, digital 10 to BLUE, digital 11 to HSync, digital 12 to VSync. Wire a direct 5V connection to Intensity. Connect GND to GND.
 
 ## Timing and resolution ##
 
@@ -25,7 +25,7 @@ The "right overscan and blanking" phase will be timed to take 115 cycles (7.18μ
 
 After that we'll pull HSync high for around 71 cycles (4.43μs).
 
-Because we can only emit 100 pixels horizontally (and have less of a timing constraint vertically) we'll basically emit three identical horizontal lines in a row (resulting in a vertical resolution of '70'.
+Because we can only emit 100 pixels horizontally (and have less of a timing constraint vertically) we'll basically emit three identical horizontal lines in a row (resulting in a vertical resolution of '70').
 
 ## Framebuffer ##
 
