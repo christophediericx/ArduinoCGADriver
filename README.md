@@ -3,7 +3,7 @@ ArduinoCGADriver is an Arduino sketch that drives a CGA screen directly from an 
 
 ![ArduinoCGADriver](https://github.com/christophediericx/ArduinoCGADriver/blob/master/images/ArduinoCGADriver.png)
 
-> *Compatibility note: This library has only been tested with UNO based Arduino boards.
+> *Compatibility note: This library has only been tested with an UNO (ATMega328P based) Arduino board.
 
 ## Wiring the CGA Connector ##
 
