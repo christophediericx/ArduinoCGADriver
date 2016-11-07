@@ -19,7 +19,7 @@ CGA has a horizontal frequency of around 15Khz (there is a tolerance for timings
 
 In a horizontal signal, our "left blanking and overscan" phase will take 71 cycles (approximately 4.43μs).
 
-Next we'll emit 100 pixels at 8 instructions each (for a total duration of 50μs).
+Next we'll emit 100 pixels at 7 instructions each (for a total duration of 43.75μs).
 
 The "right overscan and blanking" phase will be timed to take 115 cycles (7.18μs).
 
