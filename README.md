@@ -1,5 +1,5 @@
 # ArduinoCGADriver
-ArduinoCGADriver is an Arduino sketch that drives a CGA screen directly from an Arduino (UNO) without any additional hardware. The code implements a (currently only monochrome - green) 100x70 resolution / framebuffer.
+Drive a CGA screen directly from an Arduino (UNO) without any additional hardware. The code implements a monochrome green 100x70 resolution and framebuffer.
 
 ![ArduinoCGADriver](https://github.com/christophediericx/ArduinoCGADriver/blob/master/Images/ArduinoCGADriverv2.png)
 
